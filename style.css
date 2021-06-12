@@ -112,6 +112,7 @@ nav a {
 .column {
 	float: left;
 	width: 33.33%;
+	column-gap: 20px;
   }
 
 .column img {
@@ -124,4 +125,8 @@ nav a {
 }
 .container {
 	padding-top: 3%;
+}
+.column a{
+	text-decoration: none;
+	letter-spacing: 0.5px;
 }
