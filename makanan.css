@@ -8,10 +8,43 @@ body {
     font-family: poppins;
 }
 
+nav {
+    height: 100px;
+    width: 100vw;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+
+nav>div:first-child>a {
+    font-size: 30px;
+    margin-left: 130px;
+}
+
+nav>div:nth-child(2) {
+    margin-right: 80px;
+}
+
+section {
+    margin-top: 100px;
+}
+
 section>h1 {
     margin-left: 100px;
     font-size: 60px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 section>div {
@@ -54,4 +87,10 @@ section>div>div>a {
     background-color: orange;
     padding: 10px 20px;
     font-weight: bold;
+    border-radius: 5px;
+    display: none;
+}
+
+section>div>div>a:hover {
+    background-color: darkorange;
 }
