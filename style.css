@@ -94,7 +94,6 @@ nav a {
 	position: relative;
 	top: 450px;
 	background: #ebebeb;
-	height: 100vh;
 }
 .content-area h2 {
 	font-family: poppins;
@@ -124,4 +123,58 @@ nav a {
 }
 .container {
 	padding-top: 3%;
+	height: 100vh;
+}
+
+section {
+	text-align: left;
+	padding-top: 50px;
+}
+
+section>div {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+
+#first {
+    padding-top: 0px;
+}
+
+section>div>div:first-child>img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+section>div>div:nth-child(2) {
+    padding: 100px;
+}
+
+#first>div:nth-child(2) {
+    padding-top: 50px;
+}
+
+section>div>div>h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+section>div>div>p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+section>div>div>a {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: none;
+}
+
+section>div>div>a:hover {
+    background-color: darkorange;
 }
