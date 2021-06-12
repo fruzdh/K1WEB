@@ -112,7 +112,7 @@ nav a {
 .column {
 	float: left;
 	width: 33.33%;
-	column-gap: 20px;
+	grid-column-gap: 30px;
   }
 
 .column img {
