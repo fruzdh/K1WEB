@@ -28,7 +28,7 @@ body {
 	text-align: center;
 }
 .wrapper {
-	width: 1170px;
+	width: 1250px;
 	margin: 0 auto;
 }
 header {
@@ -39,7 +39,7 @@ header {
 	position: fixed;
 }
 .logo {
-	width: 30%;
+	width: 20%;
 	float: left;
 	line-height: 100px;
 }
@@ -73,7 +73,7 @@ nav a {
 }
 
 .banner-area h2 {
-	padding-top: 8%;
+	padding-top: 12%;
 	font-size: 70px;
 	font-family: poppins;
 	text-transform: uppercase;
@@ -107,4 +107,21 @@ nav a {
 	padding: 2% 0px;
 	font-family: poppins;
 	line-height: 30px;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+  }
+
+.column img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+.column p{
+	padding: 2% 5px;
+}
+.container {
+	padding-top: 3%;
 }
