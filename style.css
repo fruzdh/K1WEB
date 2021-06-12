@@ -111,6 +111,7 @@ nav a {
 .column {
 	float: left;
 	width: 33.33%;
+	grid-column-gap: 30px;
   }
 
 .column img {
@@ -177,4 +178,8 @@ section>div>div>a {
 
 section>div>div>a:hover {
     background-color: darkorange;
+}
+.column a{
+	text-decoration: none;
+	letter-spacing: 0.5px;
 }
